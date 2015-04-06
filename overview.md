@@ -1,13 +1,13 @@
 ## 什么是 JavaScript ? ##
-JavaScript 开始的时候是叫 LiveScript ，但是 Netscape 改变了这个名字，可能是因为由 Java 而产生的兴奋使它改为了 JavaScript 。JavaScript 在 1995 年的 Netscape 2.0 中以 LiveScrip t的名字第一次出现。
+JavaScript 开始的时候是叫 LiveScript ，但是 Netscape 改变了这个名字，可能是因为由 Java 而产生的兴奋使它改为了 JavaScript 。JavaScript 在 1995 年的 Netscape 2.0 中以 *LiveScript* 的名字第一次出现。
 
 JavaScript 是一个轻量级的，面向对象的解释编程语言，允许我们交互的建成其他静态 HTML 网页。
 
-这种语言的通用核心已经被内嵌到 Netscape ，Internet，Explorer，和其他网络浏览器中。
+这种语言的通用核心已经被内嵌到 Netscape，Internet，Explorer 和其他网络浏览器中。
 
 [ ECMA-262 Specification ](http://www.ecma-international.org/publications/index.html)定义了核心 JavaScript 语言的一个标准版本。
 
-JavaScript :
+JavaScript:
 
 - JavaScript 是一种轻量级，解释性编程语言。
 - 为了创建以网络为中心的应用程序而设计。
@@ -17,7 +17,7 @@ JavaScript :
 
 ## 客户端 JavaScript: ##
 
-客户端 JavaScript 是语言中最常见的形式。脚本应包括在或由HTML文件中引用的代码，以通过浏览器解释。
+客户端 JavaScript 是语言中最常见的形式。脚本应包括在或由 HTML 文件中引用的代码，以通过浏览器解释。
 
 这意味着一个网页不再需要是静态 HTML，但可以包含与用户交互的程序，控制浏览器，和动态产生 HTML 内容。
 
@@ -59,15 +59,15 @@ JavaScript 的优势之一是，它并不需要昂贵的开发工具。你可以
 
 为了使我们的生活更简单，各个厂商都提供了非常好的 JavaScript 编辑工具。它们中的少部分在这里列出：
 
-- **Microsoft FrontPage**：微软开发了一个非常流行的 HTML 编辑器称为 FrontPage 。 FrontPage 还为网页开发者提供若干 JavaScript 工具，以协助建立一个交互式网站。
+- **Microsoft FrontPage**：微软开发了一个非常流行的 HTML 编辑器称为 FrontPage。FrontPage 还为网页开发者提供若干 JavaScript 工具，以协助建立一个交互式网站。
 
-- **Macromedia Dreamweaver MX**:Macromedia Dreamweaver MX   在专业网站开发人群中是一个非常流行的 HTML 和 JavaScript 编辑器。 它提供了一些便利的预制的 JavaScript 组件，这些组件与数据库集成的很好，而且符合新的标准比如 XHTML 和 XML .
+- **Macromedia Dreamweaver MX**: Macromedia Dreamweaver MX   在专业网站开发人群中是一个非常流行的 HTML 和 JavaScript 编辑器。 它提供了一些便利的预制的 JavaScript 组件，这些组件与数据库集成的很好，而且符合新的标准比如 XHTML 和 XML。
 
 - **Macromedia Homesite 5**:它提供了一个很受欢迎的 HTML 和JavaScript 编辑器，这种编辑器用来管理他们自己的网站正好。
 
 ## 当今 JavaScript 在哪里？##
 
-ECMAScript 第 4 版标准将会是第一次更新，它将会在四年内发布。JavaScript 2.0 符合 ECMAScript 标准的第4版本，两者之间的区别是非常小的。
+ECMAScript 第 4 版标准将会是第一次更新，它将会在四年内发布。JavaScript 2.0 符合 ECMAScript 标准的第 4 版本，两者之间的区别是非常小的。
 
 JavaScript 2.0 的具体说明可以在以下网站找到：[http://www.ecmascript.org/](http://www.ecmascript.org/)
 
