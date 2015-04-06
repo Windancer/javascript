@@ -1,5 +1,5 @@
 ## 什么是 JavaScript ? ##
-JavaScript 开始的时候是叫 LiveScript ，但是 Netscape 改变了这个名字，可能是因为由 Java 而产生的兴奋使它改为了 JavaScript 。JavaScript 在 1995 年的 Netscape 2.0 中以 *LiveScript* 的名字第一次出现。
+JavaScript 开始的时候是叫 LiveScript，但是 Netscape 改变了这个名字，可能是因为由 Java 而产生的兴奋使它改为了 JavaScript。JavaScript 在 1995 年的 Netscape 2.0 中以 *LiveScript* 的名字第一次出现。
 
 JavaScript 是一个轻量级的，面向对象的解释编程语言，允许我们交互的建成其他静态 HTML 网页。
 
@@ -61,7 +61,7 @@ JavaScript 的优势之一是，它并不需要昂贵的开发工具。你可以
 
 - **Microsoft FrontPage**：微软开发了一个非常流行的 HTML 编辑器称为 FrontPage。FrontPage 还为网页开发者提供若干 JavaScript 工具，以协助建立一个交互式网站。
 
-- **Macromedia Dreamweaver MX**: Macromedia Dreamweaver MX   在专业网站开发人群中是一个非常流行的 HTML 和 JavaScript 编辑器。 它提供了一些便利的预制的 JavaScript 组件，这些组件与数据库集成的很好，而且符合新的标准比如 XHTML 和 XML。
+- **Macromedia Dreamweaver MX**: Macromedia Dreamweaver MX 在专业网站开发人群中是一个非常流行的 HTML 和 JavaScript 编辑器。它提供了一些便利的预制的 JavaScript 组件，这些组件与数据库集成的很好，而且符合新的标准比如 XHTML 和 XML。
 
 - **Macromedia Homesite 5**:它提供了一个很受欢迎的 HTML 和JavaScript 编辑器，这种编辑器用来管理他们自己的网站正好。
 
