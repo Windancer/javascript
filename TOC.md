@@ -10,7 +10,7 @@
   - [While 循环](while-loop.md)
   - [For 循环 - For Loop](for-loop.md)
   - [For...in](for-in.md)
-  - [循环控制]( loop-control.md)
+  - [循环控制](loop-control.md)
   - [函数](functions.md)
   - [事件](events.md)
   - [Cookies](cookies.md)
