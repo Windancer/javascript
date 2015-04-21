@@ -1,20 +1,43 @@
-# JavaScript
+# JavaScript 教程
 
 官方英文原版：   
 http://www.tutorialspoint.com/javascript/
 
-## 目的
+## JavaScript 开发者的快速链接
 
-翻译官方文档，目录见文件 [TOC.md](TOC.md)
+### (1) JavaScript 快速参考指南
 
-## 操作示例
+为 Web 开发者提供的一个 JavaScript 快速参考指南。
 
-https://github.com/jikexueyuanwiki/guide
+[ JavaScript 快速参考指南 ](http://www.tutorialspoint.com/javascript/javascript_quick_guide.htm)
 
-## 如何添加图片
+### (2) JavaScript 内置的有用函数
 
-前提：官网上的所有图片都已经下载下来放入「images」文件夹，图片的文件名没做任何修改。
+按字母顺序排列的一个完整的 JavaScript 函数列表。
 
-1、请引用「images」文件夹中的图片，不要直接引用官方上的图片链接；    
-2、引用「images」文件夹时，请使用相对文件路径。
+[ JavaScript 内置函数 ](http://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm)
+
+### (3) JavaScript 有用的资源 ###
+
+一个收集了许多 *JavaScript* 网站，书籍和文章的页面。
+
+[ JavaScript 有用资源](http://www.tutorialspoint.com/javascript/javascript_resources.htm)
+
+### (4) XHTML 教程 ###
+
+一个关于 XHTML 的简单教程，这是所有 Web 开发者都必须要学习的。
+
+[ XHTML 教程](http://www.tutorialspoint.com/xhtml/index.htm)
+
+### (5) CSS 教程 ###
+
+一个关于 CSS 的简单教程，这是 Web 开发者第二个最重要的武器。
+
+[ CSS 教程 ](http://www.tutorialspoint.com/css/index.htm)
+
+### (6) PDF 格式的 Javascript 教程
+
+下载一个 PDF 格式的 JavaScript 快速教程。
+
+[ PDF 格式的 Javascript 教程 ](http://www.tutorialspoint.com/javascript/javascript_pdf_version.htm) 
 

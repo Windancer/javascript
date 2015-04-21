@@ -1,5 +1,7 @@
-##JavaScript 事件
-###事件是什么？
+# 事件
+
+## 事件是什么？
+
 *JavaScript* 与 *HTML* 的交互是通过事件来处理的，当用户或浏览器操纵页面时。事件就会发生。  
 
 当页面加载时,这是一个事件。当用户单击一个按钮,点击,是一个事件。另一个例子的事件就像按任何键,关闭窗口,调整窗口等。  
@@ -9,11 +11,13 @@
 
 请通过这个小教程为更好地理解 *HTML* 事件参考。这里我们将看到一些例子来理解事件和 *JavaScript* 之间的关系:  
 
-### onclick 事件类型:
+## onclick 事件类型
+
 这是最常用的事件类型,当用户点击鼠标左按钮。你可以把你的验证、警告等反对这个事件类型。  
 
-###例子：  
+### 例子
 
+```
     <html>
     <head>
     <script type="text/javascript">
@@ -28,9 +32,11 @@
     <input type="button" onclick="sayHello()" value="Say Hello" />
     </body>
     </html>  
+```
 
-它将产生以下结果,然后当你点击你好按钮 *onclick* 事件将发生,将触发     *sayHello()* 函数。
+它将产生以下结果,然后当你点击你好按钮 *onclick* 事件将发生,将触发 *sayHello()* 函数。
 
+```
 <html>
 <head>
 <script type="text/javascript">
@@ -45,15 +51,17 @@ function sayHello() {
 <input type="button" onclick="sayHello()" value="Say Hello" />
 </body>
 </html>
+```
 
-为了更好的理解此处内容，你可以自己[尝试一下](http://www.tutorialspoint.com/cgi-bin/practice.cgi?file=javascript_4)。
-### onsubmit 事件类型:  
+## onsubmit 事件类型
 
 另一个最重要的是 *onsubmit* 事件类型。这个事件发生在您尝试提交一个表单。所以你可以用此事件类型进行表单验证。  
 
-下面一个简单简单的例子显示其用法。我们在这里调用 *validate() *函数之前提交表单数据到网络服务器。如果 *validate()* 函数返回 *true* 表单将提交否则不会提交数据。  
-###例子：  
+下面一个简单简单的例子显示其用法。我们在这里调用 *validate() *函数之前提交表单数据到网络服务器。如果 *validate()* 函数返回 *true* 表单将提交否则不会提交数据。
+  
+### 例子  
 
+```
     <html>
     <head>
     <script type="text/javascript">
@@ -73,13 +81,17 @@ function sayHello() {
     </form>
     </body>
     </html>  
-### onmouseover 和 onmouseout :  
+```
+    
+## onmouseover 和 onmouseout
 
 这两个事件类型将会帮助你创建好良好的图像效果和文本事件。*onmouseover* 事件发生时,当你把你的鼠标在任何元素上时， *onmouseover* 事件发生。当你把鼠标从该元素移开时，*onmouseout* 事件发生。
-###例子：  
+
+### 例子
 
 下面的例子显示了一个部位如何反应当我们把鼠标在这个部位上：   
 
+```
     <html>
     <head>
     <script type="text/javascript">
@@ -99,13 +111,14 @@ function sayHello() {
     </div>
     </body>
     </html>  
-    
-为了更好的理解此处内容，你可以自己[尝试一下](http://www.tutorialspoint.com/cgi-bin/practice.cgi?file=javascript_26)。  
+```   
 
 你可以改变不同的图像使用这两种事件类型或您可以创建帮助气框,来帮助你的用户。  
 
-###HTML 4标准事件
+## HTML 4 标准事件
+
 标准的 *HTML 4* 事件被列在这里,供您参考。执行以下脚本显示一个Javascript函数。
+
 <table border="">
 <tr>
 <th>Event</th>

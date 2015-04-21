@@ -1,9 +1,12 @@
-## 什么是 JavaScript ? ##
+# 概述
+
+## 什么是 JavaScript ?
+
 JavaScript 开始的时候是叫 LiveScript，但是 Netscape 改变了这个名字，可能是因为由 Java 而产生的兴奋使它改为了 JavaScript。JavaScript 在 1995 年的 Netscape 2.0 中以 *LiveScript* 的名字第一次出现。
 
 JavaScript 是一个轻量级的，面向对象的解释编程语言，允许我们交互的建成其他静态 HTML 网页。
 
-这种语言的通用核心已经被内嵌到 Netscape，Internet，Explorer 和其他网络浏览器中。
+这种语言的通用核心已经被内嵌到 Netscape，Internet Explorer 和其他网络浏览器中。
 
 [ ECMA-262 Specification ](http://www.ecma-international.org/publications/index.html)定义了核心 JavaScript 语言的一个标准版本。
 
@@ -15,7 +18,7 @@ JavaScript:
 - 补充和集成了 HTML
 - 开放和跨平台
 
-## 客户端 JavaScript: ##
+## 客户端 JavaScript
 
 客户端 JavaScript 是语言中最常见的形式。脚本应包括在或由 HTML 文件中引用的代码，以通过浏览器解释。
 
@@ -27,7 +30,7 @@ JavaScript 的代码在用户提交表单时被执行，而且只有当所有的
 
 JavaScript 可以用来捕获用户启动的事件，如单击按钮，链接导航和其他用户显式或隐式启动的操作。
 
-## JavaScript 的优点： ##
+## JavaScript 的优点
 
 使用 JavaScript 的优点有：
 
@@ -39,7 +42,7 @@ JavaScript 可以用来捕获用户启动的事件，如单击按钮，链接导
 
 - **丰富的接口**：你可以使 JavaScript 包括诸如拖放组件和滑块条的项目来给你的网站访客一个丰富的接口。
 
-## 使用 JavaScript 的限制： ##
+## 使用 JavaScript 的限制
 
 我们不能把 JavaScript 看做一个完全成熟的编程语言。它缺少下列重要特征：
 
@@ -51,7 +54,7 @@ JavaScript 可以用来捕获用户启动的事件，如单击按钮，链接导
 
 再次，JavaScript 是一种轻量级的，解释性编程语言，它允许你交互性建成另外的静态 HTML 页面。
 
-## JavaScript 开发工具：##
+## JavaScript 开发工具
 
 JavaScript 的优势之一是，它并不需要昂贵的开发工具。你可以用一个简单的文本编辑器如记事本开始。
 
@@ -65,7 +68,7 @@ JavaScript 的优势之一是，它并不需要昂贵的开发工具。你可以
 
 - **Macromedia Homesite 5**:它提供了一个很受欢迎的 HTML 和JavaScript 编辑器，这种编辑器用来管理他们自己的网站正好。
 
-## 当今 JavaScript 在哪里？##
+## 当今 JavaScript 在哪里？
 
 ECMAScript 第 4 版标准将会是第一次更新，它将会在四年内发布。JavaScript 2.0 符合 ECMAScript 标准的第 4 版本，两者之间的区别是非常小的。
 
