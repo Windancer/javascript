@@ -34,20 +34,8 @@ JavaScript 脚本可以很灵活的写在几乎 HTML 网页的任何地方。
 ```
     
 上述例子将产生如下效果：
-> <html>
-> <head>
-> <script type="text/javascript">
-> <!--
-> function sayHello() {
->    alert("Hello World")
-> }
-> //-->
-> </script>
-> </head>
-> <body>
-> <input type="button" onclick="sayHello()" value="Say Hello" />
-> </body>
-> </html>
+
+![](images/placement_say_hello.png)
 
 ## 在 `<body>...</body>` 之间编写 JavaScript 脚本
 

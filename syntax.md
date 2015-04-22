@@ -7,9 +7,9 @@
 `<script>` 标签作为一个脚本，提醒浏览器程序开始解释在这些标签之间的所有的文本。所以你的 JavaScript 的简单语法将会像下列一样。
 
 ```
-    <script ...>
-        JavaScript 代码
-    </script>
+<script ...>
+    JavaScript 代码
+</script>
 ```
 
 脚本标签有两个重要属性:
@@ -21,9 +21,9 @@
 所以你的 JavaScript 的片段应该是像这样：
 
 ```
-    <script language="javascript" type="text/javascript">
-        JavaScript 代码
-    </script>
+<script language="javascript" type="text/javascript">
+    JavaScript 代码
+</script>
 ```
 
 ## 你的第一个 JavaScript 脚本
@@ -49,8 +49,6 @@
 ```
     Hello World!
 ```
-
-为了更好的理解此处内容，你可以自己[尝试一下](http://www.tutorialspoint.com/cgi-bin/practice.cgi?file=javascript_1)。
 
 ## 空格和换行
 
