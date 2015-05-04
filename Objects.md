@@ -64,8 +64,8 @@ new 运算符用于创建对象的实例。若要创建一个对象，new 运算
     <title>User-defined objects</title>
     <script type="text/javascript">
     var book = new Object();   // Create the object
-        book.subject = "Perl"; // Assign properties to the object
-        book.author  = "Mohtashim";
+    book.subject = "Perl"; // Assign properties to the object
+    book.author  = "Mohtashim";
     </script>
     </head>
     <body>
