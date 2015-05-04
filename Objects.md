@@ -77,7 +77,7 @@ new 运算符用于创建对象的实例。若要创建一个对象，new 运算
     </html>
     
 
-为了更好的理解此处内容，你可以自己[尝试一下](http://www.tutorialspoint.com/cgi-bin/practice.cgi?file=javascript_51)。
+
 
 ### 示例2：
 
@@ -103,7 +103,7 @@ new 运算符用于创建对象的实例。若要创建一个对象，new 运算
     </html>
     
 
-为了更好的理解此处内容，你可以自己[尝试一下](http://www.tutorialspoint.com/cgi-bin/practice.cgi?file=javascript_52)。  
+  
 
 ## 为对象定义的方法:
 
@@ -142,7 +142,7 @@ new 运算符用于创建对象的实例。若要创建一个对象，new 运算
     </body>
     </html>
   
-为了更好的理解此处内容，你可以自己[尝试一下](http://www.tutorialspoint.com/cgi-bin/practice.cgi?file=javascript_53)。 
+
 
 ## With 关键字：
 
@@ -188,7 +188,7 @@ The object specified as an argument to with becomes the default object for the d
     </body>
     </html>    
 
-为了更好的理解此处内容，你可以自己[尝试一下](http://www.tutorialspoint.com/cgi-bin/practice.cgi?file=javascript_54)。 
+
   
 ## JavaScript 本机对象：
 
