@@ -64,8 +64,8 @@ new 运算符用于创建对象的实例。若要创建一个对象，new 运算
     <title>User-defined objects</title>
     <script type="text/javascript">
     var book = new Object();   // Create the object
-    book.subject = "Perl"; // Assign properties to the object
-    book.author  = "Mohtashim";
+        book.subject = "Perl"; // Assign properties to the object
+        book.author  = "Mohtashim";
     </script>
     </head>
     <body>
@@ -88,8 +88,8 @@ new 运算符用于创建对象的实例。若要创建一个对象，new 运算
     <title>User-defined objects</title>
     <script type="text/javascript">
     function book(title, author){
-    this.title = title; 
-    this.author  = author;
+       this.title = title; 
+       this.author  = author;
     }
     </script>
     </head>
@@ -120,13 +120,13 @@ new 运算符用于创建对象的实例。若要创建一个对象，new 运算
     
     // Define a function which will work as a method
     function addPrice(amount){
-    this.price = amount; 
+        this.price = amount; 
     }
     
     function book(title, author){
-    this.title = title; 
-    this.author  = author;
-    this.addPrice = addPrice; // Assign that method as property.
+        this.title = title; 
+        this.author  = author;
+        this.addPrice = addPrice; // Assign that method as property.
     }
     
     </script>
@@ -170,10 +170,10 @@ The object specified as an argument to with becomes the default object for the d
     }
     }
     function book(title, author){
-    this.title = title; 
-    this.author  = author;
-    this.price = 0;
-    this.addPrice = addPrice; // Assign that method as property.
+        this.title = title; 
+        this.author  = author;
+        this.price = 0;
+        this.addPrice = addPrice; // Assign that method as property.
     }
     </script>
     </head>
