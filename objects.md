@@ -88,8 +88,8 @@ new 运算符用于创建对象的实例。若要创建一个对象，new 运算
     <title>User-defined objects</title>
     <script type="text/javascript">
     function book(title, author){
-       this.title = title; 
-       this.author  = author;
+        this.title = title; 
+        this.author  = author;
     }
     </script>
     </head>
