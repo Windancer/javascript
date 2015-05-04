@@ -19,8 +19,8 @@
   - [Void 关键字](void-keyword.md)
   - [页面打印](page-printing.md)
 - JavaScript Objects
-  - [Objects](objects.md)
-  - [Number](number.md)
+  - [Objects](Objects.md)
+  - [Number](Number.md)
   - [Boolean](boolean.md)
   - [Strings](strings.md)
   - [Arrays](arrays.md)
