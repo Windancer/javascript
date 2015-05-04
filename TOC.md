@@ -20,7 +20,7 @@
   - [页面打印](page-printing.md)
 - JavaScript Objects
   - [对象](Objects.md)
-  - [数组](Number.md)
+  - [数字](Number.md)
   - [Boolean](boolean.md)
   - [Strings](strings.md)
   - [Arrays](arrays.md)
