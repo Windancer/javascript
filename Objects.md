@@ -198,7 +198,7 @@ JavaScript 有几个内置或本机对象。这些对象可以访问你程序的
 
 - [JavaScript Number Object](http://www.tutorialspoint.com/javascript/javascript_number_object.htm)  
 
-- [JavaScript Boolean Object](http://www.tutorialspoint.com/javascript/-javascript_boolean_object.htm)  
+- [JavaScript Boolean Object](http://www.tutorialspoint.com/javascript/javascript_boolean_object.htm)  
 
 - [JavaScript String Object](http://www.tutorialspoint.com/javascript/javascript_strings_object.htm)  
 
