@@ -21,13 +21,13 @@
 - JavaScript Objects
   - [对象](Objects.md)
   - [数字](Number.md)
-  - [Boolean](boolean.md)
-  - [Strings](strings.md)
-  - [Arrays](arrays.md)
-  - [Date](date.md)
+  - [Boolean](Boolean.md)
+  - [Strings](Strings.md)
+  - [Arrays](Arrays.md)
+  - [Date](Date.md)
   - [Math](math.md)
   - [RegExp](regexp.md)
-  - [HTML DOM](html-dom.md)
+  - [HTML DOM](Html-dom.md)
 - JavaScript Advanced
   - [Error Handling](error-handling.md)
   - [Validations](validations.md)
