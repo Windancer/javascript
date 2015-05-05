@@ -15,7 +15,7 @@
 
 这里列出了每个属性和它们的描述。
 
-<table >
+<table border="1" >
 <tr>
 <th>Property</th>
 <th>Description</th>
@@ -34,7 +34,7 @@
 
 这里列出了每个方法和它们的描述。
 
-<table >
+<table border="1">
 <tr>
 <th>Method</th>
 <th>Description</th>
