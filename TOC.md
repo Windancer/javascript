@@ -22,7 +22,7 @@
   - [对象概述](objects.md)
   - [数字对象](number.md)
   - [布尔对象](boolean.md)
-  - [Strings](strings.md)
+  - [Strings](string.md)
   - [Arrays](arrays.md)
   - [Date](date.md)
   - [Math](math.md)
