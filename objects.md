@@ -1,4 +1,4 @@
-# Javascript对象概述
+# Javascript 对象
 
 JavaScript 是一种面向对象编程语言 ( OOP ) 。一种语言如果可以为开发者提供四种基本功能就可以被称为面向对象:  
 
@@ -11,54 +11,63 @@ JavaScript 是一种面向对象编程语言 ( OOP ) 。一种语言如果可以
 
 对象由属性组成。如果一个属性包含一个函数，它被认为是这个对象的一个方法，否则这个属性被认为成一个属性。 
 
-## 对象性质：
+## 对象的属性
 
 对象属性可以是任何三个基本数据类型，或抽象数据类型中的任何一个，如另一个对象。对象属性通常是在对象的方法内部使用的变量，也可以是在整个页面中使用的全局变量。  
  
 将属性添加到对象的语法是：
-  
-    objectName.objectProperty = propertyValue； 
+ 
+``` 
+objectName.objectProperty = propertyValue； 
+```
 
-### 示例：
+### 示例
 
 以下是一个简单的例子，介绍了如何使用文档对象的 “title” 属性来获得一个文档标题:  
-      
-    var str = document.title;
-  
-## 对象的方法：
-  
+
+```      
+var str = document.title;
+```
+
+## 对象的方法
+
 方法是函数让对象做某事或让某事作用在这个对象上。一个函数和一个方法之间，除了函数是声明的一个独立的单元，而方法是附加到某个对象上并且可以使用 `this` 关键字引用方法，除此之外几乎没有差别。 
  
 方法从将对象的内容显示到屏幕上到对一组本地属性和参数执行复杂的数学运算都很有用。  
 
-### 示例：
+### 示例
   
-以下是一个简单的例子，介绍了怎样使用文档对象的 write() 方法在文档中写任何内容:   
+以下是一个简单的例子，介绍了怎样使用文档对象的 **write()** 方法在文档中写任何内容:   
 
-    document.write("This is test");
-    
-## 用户定义的对象：  
+```
+document.write("This is test");
+```
+
+## 用户定义的对象
 
 所有用户定义的对象和对象中的内置对象都是一个被称为 Object 的对象的后代。 
  
-### new运算符：  
+### new 运算符
 
 new 运算符用于创建对象的实例。若要创建一个对象，new 运算符后紧接着是构造函数方法。    
 
 在以下示例中，构造函数方法是 Object() ， Array() ，和 Date() 。这些函数是内置的 JavaScript 函数。
-  
-    var employee = new Object();  
-    var books = new Array("C++","Perl","Java");  
-    var day = new Date("August 15,1947");   
-    
-### Object() 构造函数：
+
+```  
+var employee = new Object();  
+var books = new Array("C++","Perl","Java");  
+var day = new Date("August 15,1947");   
+```
+
+### Object() 构造函数
 
 构造函数是一个可以创建和初始化对象的函数。 JavaScript 提供了名为  Object() 的一个特殊的构造函数来生成对象。 Object() 构造函数将返回值赋给一个变量。  
 
-### 示例1：
+### 示例 1
 
 此示例演示如何创建一个对象：
 
+```
     <html>
     <head>
     <title>User-defined objects</title>
@@ -75,14 +84,13 @@ new 运算符用于创建对象的实例。若要创建一个对象，new 运算
     </script>
     </body>
     </html>
-    
+```    
 
-
-
-### 示例2：
+### 示例 2
 
 此示例演示了如何用用户定义的函数来创建一个对象。这里的 this 关键字用于引用被传递给函数的对象。  
  
+``` 
     <html>
     <head>
     <title>User-defined objects</title>
@@ -101,18 +109,17 @@ new 运算符用于创建对象的实例。若要创建一个对象，new 运算
     </script>
     </body>
     </html>
-    
+```    
 
-  
-
-## 为对象定义的方法:
+## 为对象定义的方法
 
 前面的示例演示了如何用构造函数创建对象和分配属性。但是我们需要通过给对象分配方法来完成一个对象的定义。  
 
-### 示例：
+### 示例
 
 这里是一个简单的示例，说明了如何与一个对象一起添加一个函数。  
 
+```
     <html>
     <head>
     <title>User-defined objects</title>
@@ -141,23 +148,24 @@ new 运算符用于创建对象的实例。若要创建一个对象，new 运算
     </script>
     </body>
     </html>
-  
+```  
 
+## with 关键字
 
-## With 关键字：
+with 关键字被用来作为用于引用一个对象的属性或方法的一种速记。  
 
-With 关键字被用来作为用于引用一个对象的属性或方法的一种速记。  
-  
-The object specified as an argument to with becomes the default object for the duration of the block that follows.对于这个对象的属性和方法可以不命名对象就可以被使用。   
- 
-### 语法：  
+对象被指定成 with 关键字的参数，进而成为后面语句块的默认对象。这个对象的下的属性和方法可以不指定对象名而直接使用。 
+### 语法  
 
+```
      with (object){
     properties used without the object name and dot
     }    
+```
 
-### 示例：  
- 
+### 示例
+
+``` 
     <html>
     <head>
     <title>User-defined objects</title>
@@ -187,14 +195,13 @@ The object specified as an argument to with becomes the default object for the d
     </script>
     </body>
     </html>    
+```
 
+## JavaScript Native 对象
 
-  
-## JavaScript 本机对象：
+JavaScript 有几个内置或 native 对象。这些对象可以在任何地方被访问，并且在任何浏览器中运行的任何操作系统的工作方式相同。  
 
-JavaScript 有几个内置或本机对象。这些对象可以访问你程序的任何地方，并且在任何浏览器中运行的任何操作系统的工作方式相同。  
-
-这里是所有重要的 JavaScript 本机对象的列表：  
+这里是所有重要的 JavaScript native 对象的列表：  
 
 - [JavaScript Number Object](http://www.tutorialspoint.com/javascript/javascript_number_object.htm)  
 
