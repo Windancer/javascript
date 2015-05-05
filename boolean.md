@@ -1,7 +1,7 @@
-# JavaScript - 布尔对象
+# JavaScript - 布尔
 **Boolean** 对象表示两个值，不是“真”就是“假”。
 
-##语法：
+## 语法：
 
 创建一个 **Boolean** 对象：
   
@@ -13,7 +13,7 @@
 
 这里列出了每个属性和它们的描述。
 
-<table border="1">
+<table >
 <tr>
 <th>Property</th>
 <th>Description</th>
@@ -32,7 +32,7 @@
 
 这里列出了每个方法和它们的描述。
 
-<table border="1">
+<table >
 <tr>
 <th>Method</th>
 <th>Description</th>
