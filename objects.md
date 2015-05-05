@@ -207,9 +207,9 @@ JavaScript 有几个内置或 native 对象。这些对象可以在任何地方�
 
 - [JavaScript Boolean Object](boolean.md)  
 
-- [JavaScript String Object](strings.md)  
+- [JavaScript String Object](string.md)  
 
-- [JavaScript Array Object](arrays.md)  
+- [JavaScript Array Object](array.md)  
 
 - [JavaScript Date Object](date.md)  
 
