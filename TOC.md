@@ -18,9 +18,9 @@
   - [对话框](dialog-boxes.md)
   - [Void 关键字](void-keyword.md)
   - [页面打印](page-printing.md)
-- JavaScript Objects
-  - [对象](objects.md)
-  - [数字](number.md)
+- JavaScript 对象
+  - [对象概述](objects.md)
+  - [数字对象](number.md)
   - [Boolean](boolean.md)
   - [Strings](strings.md)
   - [Arrays](arrays.md)
