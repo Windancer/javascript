@@ -23,7 +23,7 @@
   - [数字对象](number.md)
   - [布尔对象](boolean.md)
   - [Strings](string.md)
-  - [Arrays](arrays.md)
+  - [Arrays](array.md)
   - [Date](date.md)
   - [Math](math.md)
   - [RegExp](regexp.md)
