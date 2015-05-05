@@ -203,17 +203,17 @@ JavaScript 有几个内置或 native 对象。这些对象可以在任何地方�
 
 这里是所有重要的 JavaScript native 对象的列表：  
 
-- [JavaScript Number Object](http://www.tutorialspoint.com/javascript/javascript_number_object.htm)  
+- [JavaScript Number Object](number.md)  
 
-- [JavaScript Boolean Object](http://www.tutorialspoint.com/javascript/javascript_boolean_object.htm)  
+- [JavaScript Boolean Object](boolean.md)  
 
-- [JavaScript String Object](http://www.tutorialspoint.com/javascript/javascript_strings_object.htm)  
+- [JavaScript String Object](strings.md)  
 
-- [JavaScript Array Object](http://www.tutorialspoint.com/javascript/javascript_arrays_object.htm)  
+- [JavaScript Array Object](arrays.md)  
 
-- [JavaScript Date Object](http://www.tutorialspoint.com/javascript/javascript_date_object.htm)  
+- [JavaScript Date Object](date.md)  
 
-- [JavaScript Math Object](http://www.tutorialspoint.com/javascript/javascript_math_object.htm)  
+- [JavaScript Math Object](math.md)  
 
 - [JavaScript RegExp Object](http://www.tutorialspoint.com/javascript/javascript_regexp_object.htm)  
 
