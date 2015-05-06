@@ -215,7 +215,7 @@ JavaScript 有几个内置或 native 对象。这些对象可以在任何地方�
 
 - [JavaScript Math Object](math.md)  
 
-- [JavaScript RegExp Object](http://www.tutorialspoint.com/javascript/javascript_regexp_object.htm)  
+- [JavaScript RegExp Object](regexp.md)  
 
 
 
