@@ -29,7 +29,7 @@
   - [正则表达式](regexp.md)
   - [文档对象模型](html-dom.md)
 - JavaScript Advanced
-  - [Error Handling](error-handling.md)
+  - [错误 & 异常处理](error-handling.md)
   - [Validations](validations.md)
   - [Animation](animation.md)
   - [Multimedia](mutimedia.md)
