@@ -31,7 +31,7 @@
 - JavaScript Advanced
   - [错误 & 异常处理](error-handling.md)
   - [表单有效性验证](validations.md)
-  - [Animation](animation.md)
+  - [动画](animation.md)
   - [Multimedia](mutimedia.md)
   - [Debugging](debugging.md)
   - [Image Map](image-map.md)
