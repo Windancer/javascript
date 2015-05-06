@@ -33,7 +33,7 @@
   - [表单有效性验证](validations.md)
   - [动画](animation.md)
   - [多媒体](mutimedia.md)
-  - [Debugging](debugging.md)
+  - [调试](debugging.md)
   - [Image Map](image-map.md)
   - [Browsers](browsers.md)
 - JavaScript Useful References
