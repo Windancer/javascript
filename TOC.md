@@ -34,8 +34,8 @@
   - [动画](animation.md)
   - [多媒体](mutimedia.md)
   - [调试](debugging.md)
-  - [Image Map](image-map.md)
-  - [Browsers](browsers.md)
+  - [图像映射](image-map.md)
+  - [浏览器兼容性](browsers.md)
 - JavaScript Useful References
   - [Quick Guide](quick-guide.md)
   - [Functions](functions.md)
