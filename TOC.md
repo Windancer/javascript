@@ -32,7 +32,7 @@
   - [错误 & 异常处理](error-handling.md)
   - [表单有效性验证](validations.md)
   - [动画](animation.md)
-  - [Multimedia](mutimedia.md)
+  - [多媒体](mutimedia.md)
   - [Debugging](debugging.md)
   - [Image Map](image-map.md)
   - [Browsers](browsers.md)
