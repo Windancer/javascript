@@ -38,5 +38,5 @@
   - [浏览器兼容性](browsers.md)
 - JavaScript Useful References
   - [快速指南](quick-guide.md)
-  - [Functions](functions.md)
+  - [函数](functions.md)
 
