@@ -32,7 +32,7 @@
   - [Error Handling](error-handling.md)
   - [Validations](validations.md)
   - [Animation](animation.md)
-  - [Multimedia](multimedia.md)
+  - [Multimedia](mutimedia.md)
   - [Debugging](debugging.md)
   - [Image Map](image-map.md)
   - [Browsers](browsers.md)
