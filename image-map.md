@@ -1,4 +1,4 @@
-## Javascript图像映射
+## 图像映射
 您可以使用 JavaScript 来创建客户端的图像映射。 usemap 启用客户端图像映射的属性定义的 &lt;img /&gt; 标记和特殊的 &lt;map&gt; 和  &lt;area&gt; 扩展标签。  
 
 一般情况下，用 &lt;map&gt; 将形成映射的图像插入到页面，此外它带有一个额外的属性称为 usemap 。usemap 属性的值是&lt;map&gt; element 上的 name 属性的值。   
