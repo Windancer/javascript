@@ -37,6 +37,6 @@
   - [图像映射](image-map.md)
   - [浏览器兼容性](browsers.md)
 - JavaScript Useful References
-  - [Quick Guide](quick-guide.md)
+  - [快速指南](quick-guide.md)
   - [Functions](functions.md)
 
