@@ -30,7 +30,7 @@
   - [文档对象模型](html-dom.md)
 - JavaScript Advanced
   - [错误 & 异常处理](error-handling.md)
-  - [Validations](validations.md)
+  - [表单有效性验证](validations.md)
   - [Animation](animation.md)
   - [Multimedia](mutimedia.md)
   - [Debugging](debugging.md)
