@@ -1,4 +1,4 @@
-##JavaScript 动画###
+## 动画 ###
 
 你可以利用 JavaScript 创造一些复杂的运动，包括下面但不限于下面的：
 
@@ -28,7 +28,7 @@ JavaScript 能够设置一系列文档模型对象的属性值，包括该对象
 	// Set distance from top edge of the screen.
 	object.style.top = distance in pixels or points; 
 
-###手动动画###
+### 手动动画 ###
 
 让我们利用文档对象模型的对象的属性值实现一个简单的动画，JavaScript 的函数如下：
 
@@ -68,7 +68,7 @@ JavaScript 能够设置一系列文档模型对象的属性值，包括该对象
 
 为了更好理解此处的内容，你可以自己[尝试一下](http://www.tutorialspoint.com/cgi-bin/practice.cgi?file=javascript_44)。
 
-###自动动画###
+### 自动动画 ###
 
 在上面的例子中我们已经看到如何让一张图片在每次点击之后向右移动。我们可以通过利用 JavaScript 中的函数 _setTimeout()_ 让它自动执行这个操作：
 
@@ -113,7 +113,7 @@ JavaScript 能够设置一系列文档模型对象的属性值，包括该对象
 
 为了更好的理解此处的内容，你可以自己[尝试一下](http://www.tutorialspoint.com/cgi-bin/practice.cgi?file=javascript_45)。
 
-###伴随鼠标事件的翻转###
+### 伴随鼠标事件的翻转 ###
 
 如下是一个简单的例子演示由鼠标事件引起的图片翻转：
 
