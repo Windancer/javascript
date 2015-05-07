@@ -1,4 +1,5 @@
 ## 图像映射
+
 您可以使用 JavaScript 来创建客户端的图像映射。 usemap 启用客户端图像映射的属性定义的 &lt;img /&gt; 标记和特殊的 &lt;map&gt; 和  &lt;area&gt; 扩展标签。  
 
 一般情况下，用 &lt;map&gt; 将形成映射的图像插入到页面，此外它带有一个额外的属性称为 usemap 。usemap 属性的值是&lt;map&gt; element 上的 name 属性的值。   
@@ -9,6 +10,7 @@
 
 当鼠标移动到图像的不同部分时，以下结合 imagemap 和 JavaScript 在一个文本框里面产生一个消息。
 
+```
     <html>
     <head>
     <title>Using JavaScript Image Map</title>
@@ -52,7 +54,8 @@
     </map>
     </body>
     </html>
+   ```
+    
 这将产生以下结果。移动你的鼠标看看变化：
 ![images4](images/usemap.jif) 
 
-为了更好的理解此处内容，你可以自己[尝试一下](http://www.tutorialspoint.com/cgi-bin/practice.cgi?file=javascript_50)。
