@@ -2,7 +2,8 @@
 
 ## JavaScript 是什么？ 
 
-JavaScript 具有如下特征：  
+JavaScript 具有如下特征： 
+
 - 轻量级的解释型（代码不需要经过预编译）可编程语言。  
 - 用于网络应用开发的脚本语言。  
 - 可以与 JAVA、HTML 语言互补集成。  
@@ -10,17 +11,17 @@ JavaScript 具有如下特征：
 
 ## JavaScript 语法 
 
-
 一段 JavaScript 脚本由包含在网页页面中 `<script>... </script>` 标签内的 JavaScript 语句组成。  
 
 编程人员可以随意将由 `<script>` 标签包含着的 JavaScript 脚本置于网页的任意位置，但是通常都会放在 `<head>` 标签内。  
 
 `<script>` 标记用来让浏览器明白这个标签之间的语句需要作为脚本来解释。所以，JavaScript 脚本可以简单的按照如下形势来表示：  
 
-
+```
     <script ...>
       JavaScript code
     </script
+```
 
 `<script>` 标签有两个很重要的属性：  
 - 语言（language）：这个属性指定你正在使用什么脚本语言。一般来说,指的都是 javascript。尽管最近版本的HTML(XHTML 及后续版本)会逐步不再使用这个属性。     
@@ -28,16 +29,17 @@ JavaScript 具有如下特征：
 
 所以 JavaScript 片段是如下形式：
 
+```
     <script language="javascript" type="text/javascript">
       JavaScript code
     </script>
-
+```
 
 ## 尝试写第一个 JavaScript 脚本  
 
 我们试着利用 JavaScript 脚本写一个打印 “Hello word” 的功能。  
 
-
+```
     <html>
     <body>
     <script language="javascript" type="text/javascript">
@@ -47,10 +49,13 @@ JavaScript 具有如下特征：
     </script>
     </body>
     </html>
+```
 
 上面的脚本会显示如下结果：  
 
+```
     Hello World!
+```
 
 ## 空格和换行符
 
@@ -62,26 +67,28 @@ JavaScript编译器会忽略掉脚本中的所有空白、缩进符、换行符�
 
 与 C、C++ 和 JAVA一样，通常 JavaScript 语句以分号结尾。但是， JavaScript 允许在每行只有一句脚本的情况下省略分号。比如，下方的脚本就是可以省略分号的：  
 
+```
     <script language="javascript" type="text/javascript">
     <!--
       var1 = 10
       var2 = 20
     //-->
     </script
+```
 
 但是一行中存在多个脚本语句时，分号是不能省略的，比如：  
 
-
+```
     <script language="javascript" type="text/javascript">
     <!--
       var1 = 10; var2 = 20;
     //-->
     </script>
+```
 
 **注意：**使用分号是一个比较实用的编程习惯  
 
 ## 区分大小写 
-
 
 JavaScript是一门大小写敏感的语言。这意味着关键词、变量、函数名及其他任何标识符在输入时都要保持一样的书写格式。  
 
@@ -91,8 +98,7 @@ JavaScript是一门大小写敏感的语言。这意味着关键词、变量、�
 
 ## 注释 
 
-
-JavaScript 同样支持 C 和 C++ 那样的注释方式：  
+JavaScript 同样支持 C 和 C++ 那样的注释方式： 
 
 - 任何以 “//” 开头的行均被认为是注释内容而被编译器忽略掉。  
 - 任何以“/*”开头且以“*/” 结尾的内容均被视为注释内容，且这样的内容可以是多行的。  
@@ -101,7 +107,7 @@ JavaScript 同样支持 C 和 C++ 那样的注释方式：
 
 ## JavaScript脚本应置于HTML文件的何处 
 
-在 HTML 文件中何处书写 JavaScript 脚本是非常灵活的。但是，通常情况下都会将脚本书写在 HTML 文件中的如下位置内：  
+在 HTML 文件中何处书写 JavaScript 脚本是非常灵活的。但是，通常情况下都会将脚本书写在 HTML 文件中的如下位置内： 
 
 - `<head>...</head>`内  
 - `<body>...</body>`内  
@@ -124,13 +130,14 @@ JavaScript也支持另外两个常用类型：null和undefined，这两个类型
 值得注意的是，在JavaScript编程过程中，必须先声明一个变量，这个变量才能被使用。  
 此外，变量是通过“var”来声明的，例子如下：  
 
+```
     <script type="text/javascript">
     <!--
     var money;
     var name;
     //-->
     </script>
-
+```
 
 ## JavaScript变量作用域
 
@@ -138,10 +145,10 @@ JavaScript也支持另外两个常用类型：null和undefined，这两个类型
     1.	全局变量：全局变量具有全部整体范围的作用域，这意味着它可以再JavaScript代码任何地方定义。  
     2.	局部变量：局部变量仅在定义它的函数体内可以访问到。函数参数对于函数来说就是局部变量。
 
-
 ### JavaScript变量名称
 
 JavaScript中变量的命名规则如下：
+
 - 1.	不能使用JavaScript中的保留关键字来命名变量。这些保留关键字会在下一节中介绍。比如break 或 boolean，这些命名变量是无效的。
 - 2.	JavaScript变量名称不能以数字（0-9）开头，只能以字母或下划线来命名变量。比如123test就是无效的变量名。但是，_123就是有效的变量名。
 - 3.	JavaScript变量名称对大小写敏感。比如，Name和name是两个不同的变量。
@@ -149,7 +156,7 @@ JavaScript中变量的命名规则如下：
 ###JavaScript保留的关键字
 
 下面是JavaScript中的保留关键字。他们不能用来命名JavaScript中的变量、行数、方法、循环标签或任何对象名称。  
-  
+
 <table>
    <tr>
       <td>abstract</td>
@@ -241,7 +248,6 @@ JavaScript中变量的命名规则如下：
       <td>super</td>
       <td></td>
    </tr>
-
 </table>  
 
 ## 算数运算符 
@@ -292,14 +298,11 @@ JavaScript语言支持以下算术运算符
 </tbody>
 </table>
 
-
-
 ## 比较运算符 
 
 JavaScript语言支持以下比较运算符  
 
 给定 **A**=10，**B**=20，下面的表格解释了这些比较运算符：  
-
 
 <table>
 <tbody>
@@ -449,8 +452,6 @@ JavaScript语言支持以下赋值运算符
 </tbody>
 </table>
 
-
-
 ## 其他运算符 
 
 ### 条件运算符
@@ -475,7 +476,6 @@ JavaScript语言支持以下赋值运算符
 typeof 是一个置于单个参数之前的一元运算符，这个参数可以是任何类型的。它的值是一个表示运算数的类型的字符串。  
 
 typeof 运算符可以判断“数值”，“字符串”，“布尔”类型，看运算数是一个数字，字符串还是布尔值，并且根据判断结果返回true或者false。  
-
 ## if 语句 
 
 **if**语句是基本的控制语句，能使JavaScript做出决定并且按条件执行语句。
