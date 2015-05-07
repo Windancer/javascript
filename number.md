@@ -18,8 +18,8 @@ var val = new Number(number);
 
 <table>  
 <tr>
-<th>Property</th>
-<th>Description</th>
+<th align="left">属性</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>MAX_VALUE</a></td>
@@ -54,8 +54,8 @@ var val = new Number(number);
 
 <table>
 <tr>
-<th>Method</th>
-<th>Description</th>
+<th align="left">方法</th>
+<th align="left">描述</th>
 </tr>
 <td>constructor()</a></td>
 <td>返回创建此对象的实例的函数。默认这是数字对象。</td>
