@@ -27,8 +27,8 @@ var fruits = ["apple","orange","mango"];
 下边列出了数组的各个属性及对应的属性描述。  
 <table >
 <tr>
-<th>属性</th>
-<th>描述</th>
+<th align="left">属性</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>constructor</a></td>
@@ -58,8 +58,8 @@ var fruits = ["apple","orange","mango"];
 
 <table>
 <tr>
-<th>方法</th>
-<th>描述</th>
+<th align="left">方法</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>concat()</a></td>
