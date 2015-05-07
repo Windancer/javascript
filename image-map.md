@@ -55,7 +55,5 @@
     </body>
     </html>
    ```
-    
-这将产生以下结果。移动你的鼠标看看变化：
-![images4](images/usemap.jif) 
+
 
