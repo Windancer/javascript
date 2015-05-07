@@ -1,7 +1,7 @@
 {
-    "name": "Java 编程指南",
-    "introduction": "Java 是一种高级的编程语言，可以在不同的平台上运行。本指南将让你对 Java 有一个彻底的认识与了解，带你用简单并且实用的方法来学习 Java 编程语言。",
-    "title": "Java 编程指南 - 极客学院 Wiki",
-    "keywords": "java编程指导,java开发手册",
-    "description": "Java 是一种高级的编程语言，可以在不同的平台上运行。本指南将让你对 Java 有一个彻底的认识与了解，带你用简单并且实用的方法来学习 Java 编程语言。"
+    "name": "JavaScript 编程语言",
+    "introduction": "JavaScript 是一种网络脚本语言，被数百万计的网页用来改进设计、验证表单、检测浏览器、创建 cookies，以及更多的应用，是因特网上最流行的脚本语言。",
+    "title": "JavaScript 编程语言 - 极客学院 Wiki",
+    "keywords": "JavaScript 编程指导,JavaScript 开发手册",
+    "description": "JavaScript 是一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类。本指南将让你对 JavaScript 有一个彻底的认识与了解，带你用简单并且实用的方法来学习 JavaScript 编程语言。"
 }
