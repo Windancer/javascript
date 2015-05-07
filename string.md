@@ -18,8 +18,8 @@ var val = new String(string);
 
 <table >
 <tr>
-<th>属性</th>
-<th>描述</th>
+<th align="left">属性</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>constructor</a></td>
@@ -41,8 +41,8 @@ var val = new String(string);
 
 <table >
 <tr>
-<th>方法</th>
-<th>描述</th>
+<th align="left">方法</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>charAt()</a></td>
@@ -128,8 +128,8 @@ var val = new String(string);
 
 <table>
 <tr>
-<th>方法</th>
-<th>描述</th>
+<th align="left">方法</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>author()</a></td>
