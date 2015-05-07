@@ -5,11 +5,13 @@
 获得目前运行在 Web 页面的浏览器的信息，使用内置的 **navigator** 对象。
 
 ### 导航属性
+
 有几个导航相关属性，您可以使用您的 Web 页面。下面是一个列表的名称和描述：
+
 <table>
 <tr>
-<th>属性</th>
-<th>描述</th>
+<th algin="left">属性</th>
+<th algin="left">描述</th>
 </tr>
 <tr>
 <td>appCodeName</td>
@@ -64,9 +66,12 @@
 <td>这个方法返回 true，如果启用了数据污染，否则，则返回 false。</td>
 </tr>
 </table>
+
 ### 浏览器检测
+
 有一个简单的 JavaScript 可以用来发现浏览器的名称 ,其后相应的 HTML 页面可以被提供给用户。
 
+```
     <html>
     <head>
     <title>Browser Detection Example</title>
@@ -102,6 +107,6 @@
     </script>
     </body>
     </html>
+```
 
-为了更好的理解此处内容，你可以自己[尝试一下](http://www.tutorialspoint.com/cgi-bin/practice.cgi?file=javascript_49)。
 
