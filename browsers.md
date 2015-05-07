@@ -1,15 +1,17 @@
-## Javascript——浏览器兼容性
+## 浏览器兼容性
 
 重要的是要了解不同浏览器之间的差异，以处理每个预计会出现的问题。所以重要的是要知道哪个浏览器运行在您的 Web 页面。   
 
 获得目前运行在 Web 页面的浏览器的信息，使用内置的 **navigator** 对象。
 
-### 导航属性：
+### 导航属性
+
 有几个导航相关属性，您可以使用您的 Web 页面。下面是一个列表的名称和描述：
+
 <table>
 <tr>
-<th>属性</th>
-<th>描述</th>
+<th align="left">属性</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>appCodeName</td>
@@ -40,12 +42,15 @@
 <td> 这个属性是一个字符串，其中包含浏览器的代码名称和浏览器版本。这个值被发送到原始服务器用于识别客户端。</td>
 </tr>
 </table>
-### 导航方法:
+
+### 导航方法
+
 有几个 Navigator-specific 方法。这里是一个与其相关的列表的：
+
 <table>
 <tr>
-<th>方法</th>
-<th>描述</th>
+<th align="left">方法</th>
+<th align="left" >描述</th>
 </tr>
 <tr>
 <td>javaEnabled()</td>
@@ -64,9 +69,12 @@
 <td>这个方法返回 true，如果启用了数据污染，否则，则返回 false。</td>
 </tr>
 </table>
-### 浏览器检测:
+
+### 浏览器检测
+
 有一个简单的 JavaScript 可以用来发现浏览器的名称 ,其后相应的 HTML 页面可以被提供给用户。
 
+```
     <html>
     <head>
     <title>Browser Detection Example</title>
@@ -102,6 +110,6 @@
     </script>
     </body>
     </html>
+```
 
-为了更好的理解此处内容，你可以自己[尝试一下](http://www.tutorialspoint.com/cgi-bin/practice.cgi?file=javascript_49)。
 

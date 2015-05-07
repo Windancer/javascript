@@ -1,11 +1,9 @@
-# Javascript 对象
+# 对象概述
 
 JavaScript 是一种面向对象编程语言 ( OOP ) 。一种语言如果可以为开发者提供四种基本功能就可以被称为面向对象:  
 
 - **封装**：把相关信息，无论数据或方法都存储在一个对象中的能力。  
-
 - **聚合**：将一个对象存储在另一个对象中的能力。  
-
 - **继承**：一个类依赖另一个类 （ 或一些类 ）中的一些性质和方法的能力。  
 - **多态**：写一个函数或方法，这个函数或方法可以以各种不同形式工作的能力。  
 
@@ -215,7 +213,7 @@ JavaScript 有几个内置或 native 对象。这些对象可以在任何地方�
 
 - [JavaScript Math Object](math.md)  
 
-- [JavaScript RegExp Object](http://www.tutorialspoint.com/javascript/javascript_regexp_object.htm)  
+- [JavaScript RegExp Object](regexp.md)  
 
 
 
