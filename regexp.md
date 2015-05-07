@@ -14,7 +14,8 @@ JavaScript **RegExp** 类代表正则表达式，字符串和 **RegExp** 都定�
     var patter = /pattern/attributes;
 ```
     
-参数描述：  
+参数描述：
+
 - **pattern：**是一个字符串，指定了正则表达式的模式或其他正则表达式。
 - **attributes：**是一个可选的字符串，包含属性 "g"、"i" 和 "m"，分别用于指定全局匹配、区分大小写的匹配和多行匹配。
 
