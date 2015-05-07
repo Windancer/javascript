@@ -10,8 +10,8 @@
 
 <table>
 <tr>
-<th algin="left">属性</th>
-<th algin="left">描述</th>
+<th align="left">属性</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>appCodeName</td>
@@ -42,12 +42,15 @@
 <td> 这个属性是一个字符串，其中包含浏览器的代码名称和浏览器版本。这个值被发送到原始服务器用于识别客户端。</td>
 </tr>
 </table>
+
 ### 导航方法
+
 有几个 Navigator-specific 方法。这里是一个与其相关的列表的：
+
 <table>
 <tr>
-<th>方法</th>
-<th>描述</th>
+<th align="left">方法</th>
+<th align="left" >描述</th>
 </tr>
 <tr>
 <td>javaEnabled()</td>
