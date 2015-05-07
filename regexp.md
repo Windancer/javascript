@@ -1,23 +1,31 @@
 ## 正则表达式
+
 正则表达式是一个对象，这个对象描述一种字符模式。   
 
 JavaScript **RegExp** 类代表正则表达式，字符串和 **RegExp** 都定义了方法，在方法中使用正则表达式来执行文本中强大的模式匹配和搜索替换功能。
+
 ### 语法
+
 正则表达式可以被 RegExp() 构造函数定义，如下所示：
 
+```
     var pattern = new RegExp(pattern, attributes);   
     or simply   
     var patter = /pattern/attributes;
+```
+    
 参数描述：  
-
 - **pattern：**是一个字符串，指定了正则表达式的模式或其他正则表达式。
 - **attributes：**是一个可选的字符串，包含属性 "g"、"i" 和 "m"，分别用于指定全局匹配、区分大小写的匹配和多行匹配。
-### 方括号：
+- 
+### 方括号
+
 方括号 ([]) 用于正则表达式的上下文中时有特殊意义，用来查找一系列字符。
-<table border="1">
+
+<table>
 <tr>
-<th>表达</th>
-<th>描述</th>
+<th align="left">表达</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>[...]</td>
@@ -44,13 +52,17 @@ JavaScript **RegExp** 类代表正则表达式，字符串和 **RegExp** 都定�
 <td>查找任何小写 a 到大写 Z 的字符</td>
 </tr>
 </table>
+
 上面所示的范围为一般情况；还可以使用范围 (0-3) 匹配任何从 0 到 3 的十进制数字，或范围 (b-v) 来匹配任何从小写 b 到小写 v 的字符。
+
 ### 量词
+
 方括号括起来的字符序列或单个字符出现的频率或位置可以用一个特殊的符号来表示。每个特殊字符都有一个特定的含义。+、*、? 和 $ 符号都遵循一个字符序列模式。
-<table border="1">
+
+<table>
 <tr>
-<th>表达</th>
-<th>描述</th>
+<th align="left">表达</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>p+</td>
@@ -85,12 +97,15 @@ JavaScript **RegExp** 类代表正则表达式，字符串和 **RegExp** 都定�
 <td>匹配任何开头为 p 的字符串</td>
 </tr>
 </table>
+
 ### 例子
+
 下面的例子会帮助理清字符匹配的概念。
-<table border="1">
+
+<table>
 <tr>
-<th>表达</th>
-<th>描述</th>
+<th align="left">表达</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>[^a-zA-Z]</td>
@@ -113,11 +128,13 @@ JavaScript **RegExp** 类代表正则表达式，字符串和 **RegExp** 都定�
 <td>匹配任何包含一个 p、紧随其后的零个或多个 hp 序列的字符串</td>
 </tr>
 </table>
+
 ### 原义字符
-<table border="1">
+
+<table>
 <tr>
-<th>字符</th>
-<th>描述</th>
+<th align="left">字符</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>Alphanumeric</td>
@@ -160,16 +177,19 @@ JavaScript **RegExp** 类代表正则表达式，字符串和 **RegExp** 都定�
 <td>控制字符 ^X；例如 \cJ 相当于换行符 \n</td>
 </tr>
 </table>
+
 ### 元字符
+
 元字符：在一个字母字符之前加上一个反斜杠，使这个组合具有特殊的含义。   
 
 例如,您可以使用 '\d' 元字符搜索大量资金数额：**/([\d]+)000/**，这里 **\d** 将寻找任何数值字符的字符串。    
 
 下面是元字符的列表，使用 PERL 风格的正则表达式表达。
-<table border="1">
+
+<table >
 <tr>
-<th>字符</th>
-<th>描述</th>
+<th align="left">字符</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>.</td>
@@ -216,12 +236,15 @@ JavaScript **RegExp** 类代表正则表达式，字符串和 **RegExp** 都定�
 <td>匹配任何指定的备选方案</td>
 </tr>
 </table>
+
 ### 修饰
+
 几个可用的 regexp 修饰符，它能使你的工作更容易，比如大小写敏感、搜索多个行等。
-<table border="1">
+
+<table>
 <tr>
-<th>字符</th>
-<th>描述</th>
+<th align="left">字符</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>i</td>
@@ -236,59 +259,65 @@ JavaScript **RegExp** 类代表正则表达式，字符串和 **RegExp** 都定�
 <td>执行全局匹配（查找所有匹配而非在找到第一个匹配后停止）</td>
 </tr>
 </table>
+
 ### RegExp属性
+
 这是 RegExp 的各个属性及对应的属性描述的列表。
-<table border="1">
+
+<table >
 <tr>
-<th>属性</th>
-<th>描述</th>
+<th align="left">属性</th>
+<th align="left">描述</th>
 </tr>
 <tr>
-<td><a href="http://www.tutorialspoint.com/javascript/regexp_constructor.htm">constructor</a></td>
+<td>constructor</td>
 <td>指定创建一个对象原型的函数</td>
 </tr>
 <tr>
-<td><a href="http://www.tutorialspoint.com/javascript/regexp_global.htm">global</a></td>
+<td>global</td>
 <td>RegExp 对象是否具有标志 g</td>
 </tr>
 <tr>
-<td><a href="http://www.tutorialspoint.com/javascript/regexp_ignorecase.htm">ignoreCase</a></td>
+<td>ignoreCase</td>
 <td>RegExp 对象是否具有标志 i</td>
 </tr>
 <tr>
-<td><a href="http://www.tutorialspoint.com/javascript/regexp_lastindex.htm">lastIndex</a></td>
+<td>lastIndex</td>
 <td>一个整数，标示开始下一次匹配的字符位置</td>
 </tr>
 <tr>
-<td><a href="http://www.tutorialspoint.com/javascript/regexp_multiline.htm">multiline</a></td>
+<td>multiline</td>
 <td>RegExp 对象是否具有标志 m</td>
 </tr>
 <tr>
-<td><a href="http://www.tutorialspoint.com/javascript/regexp_source.htm">source</a></td>
+<td>source</td>
 <td>正则表达式的源文本</td>
 </tr>
 </table>
+
 ### RegExp方法
+
 这是 RegExp 的各个方法及对应的属性描述的列表。
-<table border="1">
+
+<table >
 <tr>
-<th>方法</th>
-<th>描述</th>
+<th align="left">方法</th>
+<th align="left">描述</th>
 </tr>
 <tr>
-<td><a href="http://www.tutorialspoint.com/javascript/regexp_exec.htm">exec()</a></td>
+<td>exec()</td>
 <td>检索字符串中指定的值。返回找到的值，并确定其位置</td>
 </tr>
 <tr>
-<td><a href="http://www.tutorialspoint.com/javascript/regexp_test.htm">test()</a></td>
+<td>test()</td>
 <td>检索字符串中指定的值。返回 ture 或 false</td>
 </tr>
 <tr>
-<td><a href="http://www.tutorialspoint.com/javascript/regexp_tosource.htm">toSource</a></td>
+<td>toSource</td>
 <td>返回一个对象字面值代表指定的对象;您可以使用这个值来创建一个新的对象。</td>
 </tr>
 <tr>
-<td><a href="http://www.tutorialspoint.com/javascript/regexp_tostring.htm">toString()</a></td>
+<td>toString()</td>
 <td>返回一个代表指定对象的字符串。</td>
 </tr>
 </table>
