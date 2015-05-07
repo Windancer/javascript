@@ -9,6 +9,7 @@ JavaScript 提供了一种方式在客户端提交数据到服务器之前验证
 
 我们举个例子来说明有效性验证的过程。如下是个简单的例子：
 
+```
 	<html>
 	<head>
 	<title>Form Validation</title>
@@ -53,12 +54,13 @@ JavaScript 提供了一种方式在客户端提交数据到服务器之前验证
 	</form>
 	</body>
 	</html>
+```
 
 ### 基本表单验证
 
 首先我们会展示如何进行基本的表单有效性验证。上面的代码中我们调用了 **validate()** 函数验证数据有效性，当事件 **onsubmit** 发生的时候。下面是对 validate() 函数的实现。
 
-
+```
 	<script type="text/javascript">
 	<!--
 	// Form validation code will come here.
@@ -94,8 +96,7 @@ JavaScript 提供了一种方式在客户端提交数据到服务器之前验证
 	}
 	//-->
 	</script>
-
-为了更好理解此处的内容，你可以自己[尝试一下](http://www.tutorialspoint.com/cgi-bin/practice.cgi?file=javascript_42)。
+```
 
 ### 数据格式有效性验证
 
@@ -103,6 +104,7 @@ JavaScript 提供了一种方式在客户端提交数据到服务器之前验证
 
 这个例子演示如何验证用户输入的邮箱地址的有效性，因为输入的邮箱格式中必须包含 @ 符号和一个点号(.)。并且，符号 @ 不能作为作为邮箱地址的第一个字符，在 @ 符号之后和点号之前至少要有一个字符：
 
+```
 	<script type="text/javascript">
 	<!--
 	function validateEmail()
@@ -121,5 +123,5 @@ JavaScript 提供了一种方式在客户端提交数据到服务器之前验证
 	}
 	//-->
 	</script>
+```
 
-为了更好的理解此处内容，你可以自己[尝试一下](http://www.tutorialspoint.com/cgi-bin/practice.cgi?file=javascript_43)。
