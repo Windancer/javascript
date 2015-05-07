@@ -259,7 +259,7 @@ JavaScript语言支持以下算术运算符
 <table>
 <tbody>
 <tr>
-<th>运算符</th>  <th>描述</th> <th>例子</th>
+<th align="left">运算符</th>  <th align="left">描述</th> <th align="left">例子</th>
 </tr>
 <tr>
 <td>+</td>
@@ -307,9 +307,9 @@ JavaScript语言支持以下比较运算符
 <table>
 <tbody>
 <tr>
-<th>运算符</th>
-<th>描述</th>
-<th>例子</th>
+<th align="left">运算符</th>
+<th align="left">描述</th>
+<th align="left">例子</th>
 </tr>
 <tr>
 <td>==</td> <td>检查两个运算数的值是否相等，如果是，则结果为true</td> <td>A == B 为false</td>
@@ -346,7 +346,7 @@ JavaScript语言支持以下逻辑运算符
 <table>
 <tbody>
 <tr>
-<th>运算符</th>  <th>描述</th> <th>例子</th>
+<th align="left" width="80">运算符</th>  <th align="left">描述</th> <th align="left">例子</th>
 </tr>
 <tr>
 <td>&amp;&amp;  </td>
@@ -375,8 +375,8 @@ JavaScript语言支持以下逻辑运算符
 <table>
 <tbody>
 <tr>
-<th>运算符</th>
-<th>描述</th>   <th>例子</th>
+<th align="left" width="80">运算符</th>
+<th align="left">描述</th>   <th align="left">例子</th>
 </tr>
 <tr>
 <td>&amp;   </td>
@@ -418,8 +418,8 @@ JavaScript语言支持以下赋值运算符
 <table>
 <tbody>
 <tr>
-<th>运算符</th>  <th>描述</th>
-<th> 例子</th>
+<th align="left" width="80">运算符</th>  <th align="left">描述</th>
+<th align="left"> 例子</th>
 </tr>
 <tr>
 <td>=   </td>
@@ -461,8 +461,8 @@ JavaScript语言支持以下赋值运算符
 <table>
 <tbody>
 <tr>
-<th>运算符</th>  <th>描述  </th>
-<th>例子</th>
+<th align="left">运算符</th>  <th align="left">描述  </th>
+<th align="left">例子</th>
 </tr>
 <tr>
 <td>? : </td>
