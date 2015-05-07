@@ -28,7 +28,7 @@
   - [算数对象](math.md)
   - [正则表达式](regexp.md)
   - [文档对象模型](html-dom.md)
-- JavaScript Advanced
+- JavaScript 高级
   - [错误 & 异常处理](error-handling.md)
   - [表单有效性验证](validations.md)
   - [动画](animation.md)
@@ -36,7 +36,7 @@
   - [调试](debugging.md)
   - [图像映射](image-map.md)
   - [浏览器兼容性](browsers.md)
-- JavaScript Useful References
+- JavaScript 帮助文档
   - [快速指南](quick-guide.md)
   - [函数](functions.md)
 
