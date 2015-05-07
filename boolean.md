@@ -17,8 +17,8 @@
 
 <table  >
 <tr>
-<th>Property</th>
-<th>Description</th>
+<th align="left">属性</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>constructor</a></td>
@@ -36,8 +36,8 @@
 
 <table>
 <tr>
-<th>Method</th>
-<th>Description</th>
+<th align="left">方法</th>
+<th align="left">描述</th>
 </tr>
 <tr>
 <td>toSource()</a></td>
