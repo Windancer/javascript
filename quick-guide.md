@@ -6,7 +6,7 @@ JavaScript 具有如下特征：
 
 - 轻量级的解释型（代码不需要经过预编译）可编程语言。  
 - 用于网络应用开发的脚本语言。  
-- 可以与 JAVA、HTML 语言互补集成。  
+- 可以与 Java、HTML 语言互补集成。  
 - 开放且跨平台。  
 
 ## JavaScript 语法 
@@ -24,7 +24,7 @@ JavaScript 具有如下特征：
 ```
 
 `<script>` 标签有两个很重要的属性：  
-- 语言（language）：这个属性指定你正在使用什么脚本语言。一般来说,指的都是 javascript。尽管最近版本的HTML(XHTML 及后续版本)会逐步不再使用这个属性。     
+- 语言（language）：这个属性指定你正在使用什么脚本语言。一般来说,指的都是 JavaScript。尽管最近版本的HTML(XHTML 及后续版本)会逐步不再使用这个属性。     
 - 类型（type）： 该属性用于表明脚本语言类别的。通常应该设置为“*text/javascript*”。  
 
 所以 JavaScript 片段是如下形式：
@@ -65,7 +65,7 @@ JavaScript编译器会忽略掉脚本中的所有空白、缩进符、换行符�
 
 ## 分号是可选的 ##
 
-与 C、C++ 和 JAVA一样，通常 JavaScript 语句以分号结尾。但是， JavaScript 允许在每行只有一句脚本的情况下省略分号。比如，下方的脚本就是可以省略分号的：  
+与 C、C++ 和 Java一样，通常 JavaScript 语句以分号结尾。但是， JavaScript 允许在每行只有一句脚本的情况下省略分号。比如，下方的脚本就是可以省略分号的：  
 
 ```
     <script language="javascript" type="text/javascript">
