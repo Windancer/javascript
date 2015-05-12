@@ -117,13 +117,6 @@
     </script>
 ```
    
-## 函数的高级概念
-
-关于JavaScript函数我们已经了解了很多，但是我也在本教程放置了如下的重要概念。如果你有时间我会建议你至少去去浏览一下它们。
-
-- [JavaScript Nested Functions](http://www.tutorialspoint.com/javascript/javascript_nested_functions.htm)
-- [JavaScript Function( ) Constructor](http://www.tutorialspoint.com/javascript/javascript_function_constructors.htm)
-- [JavaScript Function Literals](http://www.tutorialspoint.com/javascript/javascript_function_literals.ht)
 
 
 
