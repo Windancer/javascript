@@ -8,7 +8,7 @@
   - [If...Else](if-else.md)
   - [Switch Case](switch-case.md)
   - [While 循环](while-loop.md)
-  - [For 循环 - For Loop](for-loop.md)
+  - [For 循环](for-loop.md)
   - [For...in](for-in.md)
   - [循环控制](loop-control.md)
   - [函数](functions.md)
