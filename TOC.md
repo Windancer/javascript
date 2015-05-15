@@ -38,5 +38,5 @@
   - [浏览器兼容性](browsers.md)
 - JavaScript 帮助文档
   - [快速指南](quick-guide.md)
-  - [函数](functions.md)
+  - [函数](function.md)
 
